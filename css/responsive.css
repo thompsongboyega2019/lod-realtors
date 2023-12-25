@@ -839,6 +839,9 @@
 .error-content .error-404 {
     font-size: 300px;
 }
+.error-content .error-404.coming-soon-txt {
+    font-size: 80px;
+} 
 
 
 }
@@ -1870,7 +1873,7 @@
 	padding: 100px 0 70px;
 }
 .footer-top-three {
-	padding: 90px 0 30px;
+	padding: 60px 0;
 }
 .testimonial-img-four {
 	padding-left: 0;
@@ -1982,7 +1985,7 @@
 	padding: 50px 0;
 }
 .services-area-three {
-	padding: 100px 0 70px;
+	padding: 60px 0;
 }
 .choose-area-two {
 	padding: 100px 0 180px;
@@ -2114,7 +2117,7 @@
     padding: 100px 0;
 }
 .choose-area-three {
-    padding: 100px 0;
+    padding: 60px 0;
 }
 .accordion-wrap-two .accordion-button {
     padding: 16px 50px 16px 22px;
@@ -2361,6 +2364,9 @@
 .error-content .error-404 {
     font-size: 150px;
 }
+.error-content .error-404.coming-soon-txt {
+    font-size: 50px;
+}
 .error-content .title {
     font-size: 30px;
 }
@@ -2557,10 +2563,14 @@
     max-height: 50px;
 }
 .about-area-three {
-	padding: 50px 0;
+	padding: 60px 0;
 }
 .section-title .subtitle-2 {
 	font-size: 30px;
+}
+.cta-area
+{
+  padding: 60px 0;
 }
 }
 

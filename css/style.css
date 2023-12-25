@@ -9306,11 +9306,12 @@ label {
 }
 
 .brand-item-wrap .title {
-    font-weight: 600;
+    font-weight: 900;
     font-size: 13px;
     margin-bottom: 25px;
-    color: var(--tg-paragraph-color);
+    color: var(--tg-primary-color);
     font-family: var(--tg-body-font-family);
+    text-transform: uppercase;
 }
 
 .brand-item-wrap-two {
@@ -9327,7 +9328,8 @@ label {
 	26. Error
 ===============================*/
 .error-area {
-    padding: 210px 0;
+    padding: 150px 0;
+    background-color: #F0F0F1;
 }
 
 .error-content {
@@ -9339,6 +9341,9 @@ label {
     margin-bottom: 50px;
     line-height: .74;
     font-weight: 800;
+}
+.error-content .error-404.coming-soon-txt {
+    font-size: 100px;
 }
 
 .error-content .error-404 span {
@@ -9356,6 +9361,9 @@ label {
     margin-bottom: 35px;
     color: var(--tg-gray-four);
     font-weight: 400;
+}
+.coming-soon-btn::after {
+    transform: rotate(180deg);
 }
 
 
@@ -9826,4 +9834,7 @@ label {
 }
 .about-area-seven {
 	background-color: var(--tg-primary-color-two);
+}
+.brand-aera-two {
+    padding: 80px 0;
 }
